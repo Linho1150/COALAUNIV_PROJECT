@@ -1,4 +1,20 @@
-# COALAUNIV_PROJECT
- Investigate and predict the rate of free rides on Korean subways. It examines in detail the "Jegi Station" in which the largest number of free rides take place.
-# PROJECT WITH
- Team Urban Campus
+# 코알라UNIV 2기 _ Hackathon
+
+### 문제 정의
+
+노인 복지로 만들어진 경로 무임승차 제도가 (프로젝트 진행일 기준) 지하철 적자에 큰 요인으로 작용한다는 가설을 증명해보기로 하였습니다.
+
+### 세부 내용
+
+공공데이터 포털에서 제공하는 "지하철 역별 무임승차인원" 정보를 바탕으로 데이터를 정제하고 분석하였습니다.
+
+1. 년도별로 무임승차 인원이 얼마나 증가하는지 찾아보고 머신러닝을 활용하여 예측해보았습니다.
+2. 많은 무임승차가 이뤄지는 역이름을 찾아보았습니다.
+
+위 두가지 결과를 여러가지 모델과 데이터 정제를 통해 찾아보고 그래프화 시켰습니다. 무임승차 인원이 지속적으로 늘어나서 특정 년도의 무임승차 인원이 어느정도 증가할지 예측하였습니다. 많은 무임승차가 이뤄지는 역은 "제기역"이었습니다. 이후 제기역에 왜 많은 무임승차가 발생했는지 데이터를 검색하여 가설을 세울 수 있었습니다.
+
+### 사용언어 및 모듈
+
+언어 : Python
+
+모듈 : Numpy, Pandas, Sklearn, matplotlib
